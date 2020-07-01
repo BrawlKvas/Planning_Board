@@ -17,17 +17,17 @@ venv\Scripts\activate.bat
 pip install -r req.txt
 ```
 ---
+#### Миграции
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+---
 #### Развертывание клиента
 ```
 cd client
 npm i
 npm run build
-```
----
-#### Миграции
-```
-python manage.py makemigrations
-python manage.py migrate
 ```
 ---
 #### Запуск
