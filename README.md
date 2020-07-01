@@ -9,7 +9,7 @@ python -m venv venv
 ---
 #### Активация виртуальной среды:
 ```
-venv/Scripts/activate.bat
+venv\Scripts\activate.bat
 ```
 #### Установка зависимостей:
 ```
