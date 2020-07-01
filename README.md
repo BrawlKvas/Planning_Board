@@ -11,21 +11,25 @@ python -m venv venv
 ```
 venv/Scripts/activate.bat
 ```
+---
 #### Установка зависимостей:
 ```
 pip install -r req.txt
 ```
+---
 #### Развертывание клиента
 ```
 cd client
 npm i
 npm run build
 ```
+---
 #### Миграции
 ```
 python manage.py makemigrations
 python manage.py migrate
 ```
+---
 #### Запуск
 ```
 python manage.py runserver
