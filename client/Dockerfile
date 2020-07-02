@@ -6,6 +6,5 @@ WORKDIR /client
 COPY package.json .
 RUN npm install
 COPY . .
-RUN npm audit fix
-
-CMD npm run build
+RUN npm run build
+COPY build
