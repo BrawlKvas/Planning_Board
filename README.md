@@ -1,4 +1,5 @@
-# The-Planning-Board-fullApp
+# The-Planning-Board
+Django + ReactJs
 
 ## Развертывание:
 
